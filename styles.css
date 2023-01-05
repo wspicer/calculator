@@ -1,0 +1,29 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+
+#calculator-body {
+    background-color: aqua;
+    width: 50%;
+    height: 400px;
+}
+
+#zero-through-nine-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 19%;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
